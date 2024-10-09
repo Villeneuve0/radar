@@ -1,0 +1,149 @@
+.box {
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+    max-width: 400px;
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+    top: 20px;
+}
+
+.box h1 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.box p {
+    color: #888;
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+.options {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    gap: 20px;
+}
+
+.options label {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+    padding: 15px;
+    border: 2px solid #ddd; /* Borda cinza padrão */
+    border-radius: 10px;
+    transition: border-color 0.3s ease;
+    width: 90px;
+}
+
+.options img {
+    width: 50px;
+    height: 100px;
+    margin-bottom: 10px;
+}
+
+.options span {
+    font-weight: bold; /* Negrito para "marido" e "esposa" */
+}
+
+.options input[type="radio"] {
+    display: none; /* Esconde a bolinha do radio */
+}
+
+.btn {
+    background-color: #E7626E;
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 16px;
+    width: 100%;
+}
+
+.error-message {
+    margin-top: 10px;
+    font-size: 16px; /* Aumenta o tamanho da mensagem de erro */
+    font-weight: bold; /* Deixa o texto da mensagem de erro em negrito */
+    color: red; /* Torna a mensagem de erro vermelha e mais visível */
+    display: none; /* Mantém oculta por padrão */
+}
+
+.error-message.show {
+    display: block; /* Mostra a mensagem de erro quando necessário */
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.header img.logo {
+    width: 150px;
+}
+
+.icon {
+    width: 50px;
+    height: 50px;
+}
+
+.footer {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #000;
+    color: white;
+}
+
+.footer p {
+    margin: 5px 0;
+    font-size: 12px;
+}
+
+.footer-logo {
+    width: 120px;
+}
+
+.security-text {
+    font-size: 12px;
+    color: #888;
+    margin-top: 10px;
+}
+
+/* Estilo do destaque principal */
+.highlight-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.highlight-title {
+    background-color: #FF9800;
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    width: 100%;
+    font-size: 17px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+}
+
+.urgent-text {
+    background-color: #FF5252;
+    padding: 15px;
+    border-radius: 8px;
+    width: 100%;
+    font-size: 13px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+}
